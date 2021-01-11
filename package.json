@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ThibaudL/BibliOurs#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-isbn-catalogue": "^1.2.3"
   }
 }

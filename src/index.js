@@ -2,10 +2,9 @@ const express = require('express')
 const app = express()
 const port = 3000
 const path = require('path');
+const {IsbnService} = require("./server/isbn");
 
-// app.get('/', (req, res) => {
-//     res.send('Hello World!')
-// })
+new IsbnService(app);
 
 app.use('/', express.static(path.join(__dirname, 'app')))
 
@@ -13,3 +12,5 @@ app.use('/', express.static(path.join(__dirname, 'app')))
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
+
+
