@@ -1,0 +1,22 @@
+{
+  "name": "bibliours",
+  "version": "1.0.0-0",
+  "description": "This is a web application allowing people to manage their home library",
+  "main": "src/index.js",
+  "scripts": {
+    "app": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaudL/BibliOurs.git"
+  },
+  "author": "npm <devintranet@mutuelledepoitiers.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThibaudL/BibliOurs/issues"
+  },
+  "homepage": "https://github.com/ThibaudL/BibliOurs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
