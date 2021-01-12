@@ -1,0 +1,37 @@
+header
+{
+text-align:center;
+}
+#bandeau
+{
+    border: 3px black solid;
+    display:flex;
+    flex-direction:row;
+}
+#corps
+{
+    display:flex;
+    flex-direction:row;
+}
+#agauche
+{
+    display:flex;
+    flex-direction: column;
+}
+#emprunts
+{
+    display:flex;
+    flex-direction: column;
+}
+.section
+{
+    border: 3px black ridge;
+}
+footer
+{
+    border:3px black solid;
+}
+#emprunts
+{
+    border:3px black solid;
+}
