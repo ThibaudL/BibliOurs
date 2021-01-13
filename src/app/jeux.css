@@ -4,10 +4,7 @@ text-align:center;
 }
 body
 {
-    /* background-image:url(mushroomstone_2560x1440.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%; */
-    color:black;
+       color:black;
     font-family: 'calligraffitiregular';
 }
 #bandeau
@@ -34,21 +31,8 @@ body
 #corps
 {
     display:flex;
-    flex-direction:row;
-}
-#agauche
-{
-    display:flex;
-    flex-direction: column;
-    width: 50%;
-}
-#emprunts
-{
-    display:flex;
-    flex-direction: column;
-    width: 50%;
-    border: 3px black ridge;
-    border-radius: 5px;
+    flex-direction: row;
+    width:100%;
 }
 .section
 {
@@ -56,13 +40,7 @@ body
     border-radius: 5px;
     margin:10px;
     padding: 5px;
-}
-#emprunts
-{
-    border:3px blackblack solid;
-    margin:10px;
-    padding: 5px;
-    border-radius: 5px;
+    width: 50%;
 }
 nav
 {
@@ -80,6 +58,11 @@ nav>p
     border-radius: 5px;
     display:block;
 }
+nav>p>a
+{
+    text-decoration: none;
+    color:black;
+}
 footer
 {
     margin:10px;
@@ -88,7 +71,7 @@ footer
     justify-content: space-around;
     width: 100%;
 }
-a
+footer>span>a
 {
     text-decoration: none;
     color:black;
