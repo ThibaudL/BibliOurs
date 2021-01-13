@@ -39,8 +39,8 @@ body
 #agauche
 {
     display:flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
+    width: 50%;
 }
 #emprunts
 {
@@ -49,8 +49,6 @@ body
     width: 50%;
     border: 3px black ridge;
     border-radius: 5px;
-    margin:10px;
-    padding: 5px;
 }
 .section
 {
@@ -58,6 +56,13 @@ body
     border-radius: 5px;
     margin:10px;
     padding: 5px;
+}
+#emprunts
+{
+    border:3px blackblack solid;
+    margin:10px;
+    padding: 5px;
+    border-radius: 5px;
 }
 nav
 {
