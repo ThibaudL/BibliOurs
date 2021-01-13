@@ -61,6 +61,12 @@ body
     padding: 5px;
 }
 
+#to-read>li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
 nav
 {
     display:flex;
@@ -68,12 +74,13 @@ nav
     justify-content:flex-end;
     width: 30%;
     align-content: space-between;
+    align-items: center;
 }
-nav>p
+nav>span
 {
     border:3px black ridge;
     margin-right:10px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     display:block;
 }
@@ -117,5 +124,4 @@ footer>span>a
     font-family:'allura';
     src: url('Allura-Regular.otf');
 }
-    
-    
+

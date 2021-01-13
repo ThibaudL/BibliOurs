@@ -4,6 +4,7 @@
         <link rel="icon" href="panda-1300187_640.png" />
         <link rel="stylesheet" href="index.css" />
         <script src="https://kit.fontawesome.com/9506e8abe4.js" crossorigin="anonymous"></script>
+        <script src="./scripts/index.js"></script>
         <title> Bibliours </title>
     </head>
 
@@ -13,13 +14,13 @@
         </header>
 
         <div id ="bandeau">
-            
+
             <div id="logo"><p><img src=panda-1300187_640.png id="panda">Bibliours</p></div> <!---Ajouter un logo?-->
             <nav>
                 <!---Intégrer les liens-->
-                <p>Livres</p> </br>
-                <p><a href="jeux.html">Jeux</a> </p></br>
-                <p><i class="fas fa-search"></i></p> 
+                <span>Livres</span>
+                <span><a href="jeux.html">Jeux</a> </span>
+                <span><i class="fas fa-search"></i></span>
             </nav>
         </div>
 
@@ -27,18 +28,7 @@
             <div id="agauche">
                 <div class="section">
                     <p> A lire :</p>
-                        <ul>
-                            <li>Livre</li>
-                            <li>Livre</li>
-                            <li>Livre</li>
-                            <li>Livre</li>
-                            <li>Livre</li>
-                            <li>Livre</li>
-                            <li>Livre</li>
-                            <li>Livre</li>
-                            <li>Livre</li>
-                            <li>Livre</li>
-                        </ul>
+                        <ul id="to-read"></ul>
                 </div>
 
                 <div class="section">
@@ -57,7 +47,7 @@
                     </ul>
                 </div>
             </div>
-                
+
             <div id="emprunts">
                 <div> <p>Emprunts en cours :</p> </div>
                     <ul>
