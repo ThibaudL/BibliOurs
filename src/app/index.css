@@ -2,11 +2,28 @@ header
 {
 text-align:center;
 }
+body
+{
+    background-image:url(magicbook_629fd3fd12749337.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    ;
+
+}
 #bandeau
 {
     border: 3px black solid;
     display:flex;
     flex-direction:row;
+    border-radius: 5px;
+    margin: 10px;
+}
+#logo
+{
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: 'calligraffitiregular'
 }
 #corps
 {
@@ -17,21 +34,74 @@ text-align:center;
 {
     display:flex;
     flex-direction: column;
+    width: 50%;
 }
 #emprunts
 {
     display:flex;
     flex-direction: column;
+    width: 50%;
 }
 .section
 {
     border: 3px black ridge;
-}
-footer
-{
-    border:3px black solid;
+    border-radius: 5px;
+    margin:10px;
+    padding: 5px;
 }
 #emprunts
 {
     border:3px black solid;
+    margin:10px;
+    padding: 5px;
+    border-radius: 5px;
 }
+nav
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    width: 30%;
+    align-content: space-between;
+}
+nav>p
+{
+    border:3px black ridge;
+    margin-right:10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+footer
+{
+    margin:10px;
+    padding:5px;
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+    text-align:center;
+    border:3px black ridge;
+    margin-right:10px;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+@font-face {
+    font-family: 'my_underwoodregular';
+    src: url('./fonts/MyUnderwood.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('./fonts/Calligraffiti.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    
+    
