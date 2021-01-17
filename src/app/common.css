@@ -1,0 +1,173 @@
+
+
+header
+{
+text-align:center;
+}
+body
+{
+    /* background-image:url(mushroomstone_2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    --main-bg-color: #f5f3ee;
+    --secondary-color : #9ad248;
+    --tertiary-color : #fb9833;
+}
+div{
+    background-color: var(--main-bg-color);
+}
+#bandeau{
+    padding: 5px;
+}
+#bandeau,
+footer
+{
+    background-color: var(--secondary-color);
+    font-family: 'calligraffitiregular';
+    /*border: 3px #2EE59D solid;*/
+    display:flex;
+    flex-direction:row;
+    /*border-radius: 5px;*/
+    justify-content: space-between;
+}
+
+
+#logo
+{
+    text-align: left;
+    font-family: 'allura';
+    font-size: xx-large;
+    vertical-align: middle;
+}
+#panda
+{
+    width:10%;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color:  var(--main-bg-color);
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    border-radius: 45px;
+}
+
+.button:hover {
+    background-color: var(--secondary-color);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    border: 1px solid white;
+}
+
+.button.active{
+    background-color: var(--tertiary-color);
+}
+
+hr{
+    margin: 0;
+    padding: 2px;
+    border: none;
+}
+#agauche,
+#adroite{
+    border: 5px solid var(--secondary-color);
+    padding: 5px;
+}
+
+hr{
+    background-color : var(--secondary-color);
+
+}
+
+#corps
+{
+    display:flex;
+    flex-direction:row;
+}
+#agauche
+{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+}
+#adroite
+{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    /*border: 3px #2EE59D ridge;*/
+}
+.section
+{
+    /*border: 3px #2EE59D ridge;*/
+}
+
+nav
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    width: 30%;
+    align-content: space-between;
+    align-items: center;
+}
+nav>a
+{
+    margin-right:10px;
+    padding: 10px;
+    border-radius: 5px;
+    display:block;
+}
+nav a
+{
+    text-decoration: none;
+    color:black;
+}
+footer
+{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    bottom:10px
+}
+footer>span>a
+{
+    text-decoration: none;
+    color:black;
+    text-align:center;
+    border:3px black ridge;
+    margin-right:10px;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+@font-face {
+    font-family: 'my_underwoodregular';
+    src: url('./fonts/MyUnderwood.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('./fonts/Calligraffiti.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:'allura';
+    src: url('Allura-Regular.otf');
+}
+

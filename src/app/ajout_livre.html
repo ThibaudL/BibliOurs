@@ -2,28 +2,31 @@
     <head>
         <meta charset="utf-8" />
         <link rel="icon" href="panda-1300187_640.png" />
+        <link rel="stylesheet" href="common.css"/>
         <link rel="stylesheet" href="ajout_livre.css" />
         <script src="https://kit.fontawesome.com/9506e8abe4.js" crossorigin="anonymous"></script>
         <title> Bibliours </title>
     </head>
 
     <body>
-        <header>Ajout</header>
         <div id ="bandeau">
 
             <div id="logo"><img src=panda-1300187_640.png id="panda">Bibliours</div> <!---Ajouter un logo?-->
                 <nav>
                     <!---Intégrer les liens-->
-                    <span>Livres</span>
-                    <span><a href="jeux.html">Jeux</a> </span>
-                    <span><i class="fas fa-search"></i></span>
+                    <!---Intégrer les liens-->
+                    <a class="button" href="index.html">Livres</a>
+                    <a class="button" href="jeux.html">Jeux</a>
+                    <a class="button active" href="ajout_livre.html"><i class="fas fa-search"></i></a>
                 </nav>
             </div>
-            
+
+        <br>
+
         <div id="contenu">
             <div id="agauche">
-                <form>
-                    <input name="rechercheISBN"/>
+                <form action="ajout_livre.html" method="get">
+                    <input name="rechercheISBN" placeholder="Un ISBN"/>
                     <button>Rechercher</button>
                 </form>
             </div>
@@ -35,14 +38,14 @@
                 <div id="boutons">
                     <button><a href='ajout_livre.html'>Je voudrais ce livre. </a></button>
                     <button><a href='ajout_livre.html'>Je possède ce livre. </a></button>
-                </div>    
+                </div>
             </div>
         </div>
     </body>
 
     <footer> <!-- Le passer dans le body ? -->
-        <span><a href="https://www.placedeslibraires.fr/"> Place des libraires </a></span>
-        <span><a href="https://www.canalbd.net/bulles-d-encre"> Bulles d'encre</a></span>
-        <span><a href="https://www.librairies-nouvelleaquitaine.com/"> Librairies indépendantes de la Nouvelle-Aquitaine</a></span>
+        <span><a class="button" href="https://www.placedeslibraires.fr/"> Place des libraires </a></span>
+        <span><a class="button" href="https://www.canalbd.net/bulles-d-encre"> Bulles d'encre</a></span>
+        <span><a class="button" href="https://www.librairies-nouvelleaquitaine.com/"> Librairies indépendantes de la Nouvelle-Aquitaine</a></span>
     </footer>
 </html>
