@@ -84,7 +84,7 @@ nav>span
     border-radius: 5px;
     display:block;
 }
-nav>p>a
+nav>span>a
 {
     text-decoration: none;
     color:black;
