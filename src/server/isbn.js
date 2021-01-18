@@ -8,7 +8,7 @@ exports.IsbnService = class {
             isbn.resolve(req.params.isbn, function (err, book) {
                 if (err) {
                     res.sendStatus(404);
-                    console.error("Book not found", err);
+                    console.error("Book not found",req.params.isbn, err);
                 } else {
                     res.send(book);
                 }
